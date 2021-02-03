@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Firefox" time="23.372" tests="2" failures="0" skips="0" errors="0">
+   <testsuite name="Login_Firefox" tests="2" failures="0" errors="0" time="23.372" skips="0" timestamp="2021-02-02 20:32:04" hostname="User - 192.168.2.19" id="Test Suites/Login_Firefox">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kurt\\git\\KatalonDemo\\Reports\\20210202_203155\\Login_Firefox\\20210202_203158"/>
+         <property name="logFiles" value="C:\\Users\\Kurt\\git\\KatalonDemo\\Reports\\20210202_203155\\Login_Firefox\\20210202_203158\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - 192.168.2.19"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.0.208"/>
+         <property name="browser" value="Chrome 88.0.4324.104"/>
+         <property name="hostAddress" value="192.168.2.19"/>
+         <property name="sessionId" value="de7f57cb32e171eef8cc0a79f9ee2592"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_Negative_Path" time="12.058" classname="Test Cases/Login_Negative_Path" status="PASSED">
+         <system-out><![CDATA[2021-02-02 20:32:05 - [TEST_CASE][PASSED] - Test Cases/Login_Negative_Path: Test Cases/Login_Negative_Path
+
+2021-02-02 20:32:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-02 20:32:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-02 20:32:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-02 20:32:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-02 20:32:12 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2021-02-02 20:32:13 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2021-02-02 20:32:13 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Page_OrangeHRM/span_Username")): Object: 'Object Repository/Login_OR/Page_OrangeHRM/span_Username' is clicked on
+
+2021-02-02 20:32:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_OrangeHRM/span_Username' is clicked on
+
+2021-02-02 20:32:13 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "root"): Text 'root' is set on object 'Object Repository/Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-02-02 20:32:14 - [MESSAGE][PASSED] - Text 'root' is set on object 'Object Repository/Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-02-02 20:32:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_OR/Page_OrangeHRM/input_Username_txtPassword"), "mM0VwRptd7w="): Text ****** has been set on object 'Object Repository/Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-02-02 20:32:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-02-02 20:32:15 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-02-02 20:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-02-02 20:32:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login_OR/Page_OrangeHRM/Invalid_login_alert"), "Invalid credentials", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Login_OR/Page_OrangeHRM/Invalid_login_alert' are matched.
+
+2021-02-02 20:32:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login_OR/Page_OrangeHRM/Invalid_login_alert' are matched.
+
+2021-02-02 20:32:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-02 20:32:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Positive_Path" time="9.11" classname="Test Cases/Login_Positive_Path" status="PASSED">
+         <system-out><![CDATA[2021-02-02 20:32:17 - [TEST_CASE][PASSED] - Test Cases/Login_Positive_Path: Test Cases/Login_Positive_Path
+
+2021-02-02 20:32:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-02 20:32:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-02 20:32:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-02 20:32:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-02 20:32:21 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/https://opensource-demo.orangehrmlive.com/' successfully
+
+2021-02-02 20:32:22 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/https://opensource-demo.orangehrmlive.com/' successfully
+
+2021-02-02 20:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Page_OrangeHRM/span_Username")): Object: 'Object Repository/Login_OR/Page_OrangeHRM/span_Username' is clicked on
+
+2021-02-02 20:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_OrangeHRM/span_Username' is clicked on
+
+2021-02-02 20:32:23 - [TEST_STEP][PASSED] - setText(findTestObject("Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-02-02 20:32:23 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2021-02-02 20:32:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_OR/Page_OrangeHRM/input_Username_txtPassword"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-02-02 20:32:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_OR/Page_OrangeHRM/input_Username_txtPassword'
+
+2021-02-02 20:32:24 - [TEST_STEP][PASSED] - click(findTestObject("Login_OR/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-02-02 20:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OR/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2021-02-02 20:32:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login_OR/Page_OrangeHRM/a_Welcome Paul"), "Welcome Paul", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Login_OR/Page_OrangeHRM/a_Welcome Paul' are matched.
+
+2021-02-02 20:32:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login_OR/Page_OrangeHRM/a_Welcome Paul' are matched.
+
+2021-02-02 20:32:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-02 20:32:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-02 20:32:04 - [TEST_SUITE][PASSED] - Login_Firefox: Test Cases/Login_Positive_Path]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

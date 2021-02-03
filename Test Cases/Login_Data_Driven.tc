@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Uses a login and passwords from a test data file to iterate though each login permutation.</description>
+   <name>Login_Data_Driven</name>
+   <tag>login</tag>
+   <comment></comment>
+   <testCaseGuid>998f84bc-3654-47ff-9967-15116b1cd56c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e1bfa456-6813-44c2-ad5d-16301255e4f3</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1bfbe1a3-4812-4a52-8e7a-a19b48aa5968</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

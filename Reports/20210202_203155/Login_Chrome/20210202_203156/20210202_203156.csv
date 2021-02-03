@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Chrome,Chrome 88.0.4324.104,,,2021-02-02 20:32:04,2021-02-02 20:32:29,25.258s,PASSED
+,,,,,,,
+Test Cases/Login_Negative_Path,Chrome 88.0.4324.104,Logs in using valid credentials,positive,2021-02-02 20:32:05,2021-02-02 20:32:18,13.006s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.104,,,2021-02-02 20:32:07,2021-02-02 20:32:12,5.192s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 88.0.4324.104,,,2021-02-02 20:32:12,2021-02-02 20:32:14,2.453s,PASSED
+"click(findTestObject(""Login_OR/Page_OrangeHRM/span_Username""))",Chrome 88.0.4324.104,,,2021-02-02 20:32:14,2021-02-02 20:32:15,0.906s,PASSED
+"setText(findTestObject(""Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""root"")",Chrome 88.0.4324.104,,,2021-02-02 20:32:15,2021-02-02 20:32:16,0.811s,PASSED
+"setEncryptedText(findTestObject(""Login_OR/Page_OrangeHRM/input_Username_txtPassword""), ""mM0VwRptd7w="")",Chrome 88.0.4324.104,,,2021-02-02 20:32:16,2021-02-02 20:32:17,0.530s,PASSED
+"click(findTestObject(""Login_OR/Page_OrangeHRM/input_Password_Submit""))",Chrome 88.0.4324.104,,,2021-02-02 20:32:17,2021-02-02 20:32:17,0.611s,PASSED
+"verifyElementText(findTestObject(""Login_OR/Page_OrangeHRM/Invalid_login_alert""), ""Invalid credentials"", CONTINUE_ON_FAILURE)",Chrome 88.0.4324.104,,,2021-02-02 20:32:17,2021-02-02 20:32:18,0.497s,PASSED
+closeBrowser(),Chrome 88.0.4324.104,,,2021-02-02 20:32:18,2021-02-02 20:32:18,0.714s,PASSED
+,,,,,,,
+Test Cases/Login_Positive_Path,Chrome 88.0.4324.104,Logs in using valid credentials,positive,2021-02-02 20:32:18,2021-02-02 20:32:29,10.500s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.104,,,2021-02-02 20:32:19,2021-02-02 20:32:22,3.375s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/https://opensource-demo.orangehrmlive.com/"")",Chrome 88.0.4324.104,,,2021-02-02 20:32:22,2021-02-02 20:32:24,1.137s,PASSED
+"click(findTestObject(""Login_OR/Page_OrangeHRM/span_Username""))",Chrome 88.0.4324.104,,,2021-02-02 20:32:24,2021-02-02 20:32:24,0.569s,PASSED
+"setText(findTestObject(""Login_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""admin"")",Chrome 88.0.4324.104,,,2021-02-02 20:32:24,2021-02-02 20:32:25,0.717s,PASSED
+"setEncryptedText(findTestObject(""Login_OR/Page_OrangeHRM/input_Username_txtPassword""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 88.0.4324.104,,,2021-02-02 20:32:25,2021-02-02 20:32:25,0.499s,PASSED
+"click(findTestObject(""Login_OR/Page_OrangeHRM/input_Password_Submit""))",Chrome 88.0.4324.104,,,2021-02-02 20:32:25,2021-02-02 20:32:27,2.121s,PASSED
+"verifyElementText(findTestObject(""Login_OR/Page_OrangeHRM/a_Welcome Paul""), ""Welcome Paul"", CONTINUE_ON_FAILURE)",Chrome 88.0.4324.104,,,2021-02-02 20:32:27,2021-02-02 20:32:28,0.781s,PASSED
+closeBrowser(),Chrome 88.0.4324.104,,,2021-02-02 20:32:28,2021-02-02 20:32:29,0.639s,PASSED
